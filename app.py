@@ -29,6 +29,7 @@ with right:
 
 full_query = defense_prompt + "/n" + user_data + "/n" + adversary_prompt
 
+st.button("Generate final prompt:")
 
 st.write("Full query:")
 st.code(full_query)
